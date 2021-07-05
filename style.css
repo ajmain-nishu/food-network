@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading--color {
+    color: #444444;
+}
+
+span {
+    color: #FF7600;
+}
+
+.btn--gradient {
+    background-image: linear-gradient(to right, #FFA900, #FF7600, #FC5404);
+}
+
+
+
+
+.header {
+    display: flex;
+    padding: 40px 60px;
+}
+
+.header__left {
+    width: 50%;
+    padding: 100px 10px;
+}
+
+.header__right {
+    width: 50%;
+}
+
+.header__left__heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.header__left__para {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    color: #444444;
+    padding-right: 60px;
+}
+
+button {
+    padding: 18px 35px;
+    border-radius: 40px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+}
+
+.header__right__img {
+    width: 100%;
+}
+
+
+
+
+.about-me {
+    display: flex;
+    background-image: url(images/shape/about_me_shape.png);
+    background-size: 100% 100%;
+    padding-top: 80px;
+}
+
+.about-me__left {
+    width: 50%;
+}
+
+.about-me__right {
+    width: 50%;
+}
+
+.about-me__left__img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-me__right__heading {
+    font-size: 2rem;
+    padding-top: 40px;
+}
+
+.about-me__right__para {
+    padding-right: 200px;
+    padding-bottom: 60px;
+}
