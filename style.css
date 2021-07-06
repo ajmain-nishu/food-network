@@ -140,3 +140,30 @@ button {
     font-weight: 300;
 }
 
+
+
+
+.customer {
+    padding: 80px 6.5%;
+}
+
+.customer__card {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 40px 45px;
+}
+
+.customer__card__review {
+    width: 20%;
+}
+
+.customer__card__review__header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.customer__card__review__para {
+    margin-top: 5px;
+}
