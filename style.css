@@ -54,6 +54,7 @@ button {
     font-size: 1rem;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .header__right__img {
@@ -144,7 +145,7 @@ button {
 
 
 .customer {
-    padding: 80px 6.5%;
+    padding: 100px 6.5%;
 }
 
 .customer__card {
