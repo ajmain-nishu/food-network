@@ -171,6 +171,34 @@ button {
 
 
 
+.popular-food {
+    background-image: url(images/shape/about_me_shape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.popular-food__left {
+    width: 45%;
+    padding-left: 15%;
+}
+.popular-food__right {
+    width: 45%;
+}
+.popular-food__right__img {
+    width: 55%;
+}
+.popular-food__left__header {
+    font-size: 2rem;
+}
+.popular-food__left__unorder {
+    padding-left: 15px;
+}
+
+
+
+
 footer {
     text-align: center;
     background-color: black;
