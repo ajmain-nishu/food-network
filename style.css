@@ -14,8 +14,17 @@ span {
 .btn--gradient {
     background-image: linear-gradient(to right, #FFA900, #FF7600, #FC5404);
 }
+
+.btn--black {
+    color: black;
+}
+
 .box--shadow {
     box-shadow: 1px 3px 10px #dfe6e9, 1px 3px 20px #dfe6e9;
+}
+
+.display--block {
+    display: block;
 }
 
 
@@ -195,6 +204,39 @@ button {
 }
 .popular-food__left__unorder {
     padding-left: 15px;
+}
+
+
+
+
+.contact {
+    padding: 100px 15.5%;
+}
+.contact__card {
+    padding: 40px 150px;
+    border-radius: 20px;
+}
+.contact__card__input {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.contact__card__input__info {
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+.contact__card__message {
+    resize: none;
+    width: 50%;
+    margin: 0 auto 10% auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.contact__card__btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 
